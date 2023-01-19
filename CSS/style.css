@@ -1,0 +1,44 @@
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px;
+  }
+  .logo {
+    padding: 10px;
+    text-align: center;
+  }
+  .navigation{
+    padding: 10px;
+    width: 98%;
+    display: inline-flex;
+    background-color: #ffe8fa;
+  }
+  
+  .content{
+    width: 300px;
+    margin: 0 auto;
+    justify-content: center;
+  }
+  .footerzzz{
+    background-color: #ffe8fa;
+  }
+  ul{
+  margin-left: auto;
+  display: inline-block;
+  vertical-align: top;
+
+}
+.P1{
+    width: 300px;
+    padding: 50px;
+    margin: 10px;
+    font-family: 'Montserrat', sans-serif;
+    text-align:center;
+    background-color: #ffe8fa;
+    display: inline-block;
+
+}
+.flexcontainer{
+  display: flex;
+  align-items: stretch;
+}
