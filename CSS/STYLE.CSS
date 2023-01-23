@@ -105,5 +105,14 @@ display: grid;
   .P1 {
       width: 100%;
       height: auto;
+      text-align: center;
+      background-color: #dadaef;
   }
+  .P2 {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    background-color: #dadaef;
+}
+
 }
