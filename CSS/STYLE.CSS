@@ -53,7 +53,9 @@
     font-family: 'Montserrat', sans-serif;
     text-align:center;
     background-color: #dadaef;
-    display: inline-block
+    display: inline-block;
+    justify-content: flex-start;
+    align-items: flex-start;
 
 }
 
@@ -69,7 +71,7 @@
 }
 .flexcontainer{
   display: flex;
-  justify-content:flex-start;
+  justify-content:center;
 }
 
 .grid-container{
@@ -88,28 +90,29 @@ display: grid;
 }
 
 .myWork{
-  display: flex;
+  /*display: flex;
   flex-direction: column;
-  align-items: center;
-
+  align-items: center;*/
+  text-align: center;
 }
 
 .mySkills{
   text-align: center;
 }
 
-@media only screen and (max-width: 600px){
-  .flexContainer{
+@media (max-width: 800px){
+  
+ /* .flexContainer{
       flex-direction: column;
-  }
+  }*/
   .P1 {
-      width: 100%;
+      width: 100px;
       height: auto;
       text-align: center;
       background-color: #dadaef;
   }
   .P2 {
-    width: 100%;
+    width: 100px;
     height: auto;
     text-align: center;
     background-color: #dadaef;
